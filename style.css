@@ -1,0 +1,210 @@
+body{box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+#contain {
+	display: flex;
+	flex-wrap: wrap;
+	border:1px solid green;
+	width: 160px;
+	height: 260px;
+	margin-left:750px;
+	margin-top: 300px;
+	background-color: silver;
+	color: white;
+}
+
+.screen {
+	background-color: #91BF7F;
+	width: 120px;
+	border:1px solid #78B162;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 5px;
+}
+
+.clear {
+	border:1px solid #91BF7F;
+	width: 38px;
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.clear:active {
+	background-color: #91BF7F;
+}
+
+.one {
+	border:1px solid #91BF7F;
+	width: 39px;
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.decimal:active, .add:active, .zero:active, .one:active, .two:active, .three:active, .four:active, .five:active, .six:active, .seven:active, .eight:active, .nine:active {
+	background-color: #91BF7F;
+}
+
+.divide:active, .multiply:active, .subtract:active, .equals:active {
+	background-color: #78B162;
+}
+
+.two {
+	border:1px solid #91BF7F;
+	width: 39px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.three {
+	border:1px solid #91BF7F;
+	width: 39px;
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.four {
+	border:1px solid #91BF7F;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.five {
+	border:1px solid #91BF7F;
+	width: 38px;
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.six {
+	border:1px solid #91BF7F;
+	width: 39px;
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.seven{
+	border:1px solid #91BF7F;
+	width: 39px;
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.eight {
+	border:1px solid #91BF7F;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.nine {
+	border:1px solid #91BF7F;
+	width: 38px;
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.zero {
+	border:1px solid #91BF7F;
+	width: 38px;
+	display: flex;
+	justify-content: center;
+	align-items:center; 
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.add {
+	border:1px solid #96C285;
+	width: 39px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.subtract {
+	border:1px solid #96C285;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	cursor: pointer;
+	background-color: #91BF7F;
+}
+
+.multiply {
+	border:1px solid #96C285;
+	width: 40px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	cursor: pointer;
+	background-color: #91BF7F;
+}
+
+.decimal {
+	border:1px solid #96C285;
+	width: 40px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	cursor: pointer;
+	background-color: #78B162;
+}
+
+.divide {
+	border:1px solid #96C285;
+	width: 40px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	cursor: pointer;
+	background-color: #91BF7F;
+}
+
+.equals {
+	border:1px solid #96C285;
+	width: 40px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	cursor: pointer;
+	background-color: #91BF7F;
+}
